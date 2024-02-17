@@ -2,25 +2,25 @@
     background-color: antiquewhite;
 }
 .titulo {
-    display: inline;
+    display: flex;
     align-items: center;
     justify-content: center;
-
+    padding: auto;
 }
 .galeria {
     display: flex;
-    width: 500px;
-    height: 300px;
+    align-items: center;
 }
 .galeria img {
-    width: 6px;
+    margin: 10px;
+    width: 120px;
     flex-grow: 1;
     object-fit: cover;
     filter: brightness(80%);
     transition: .7s ease;
 }
 .galeria img:hover{
-    width: 500px;
+    width: 300px;
     opacity: 1;
     filter: brightness(130%);
 }
